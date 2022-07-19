@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <title>HTML CSS - Beginners to Advanced - Gumroad Rebuild</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="logo-wrapper">
+            <img src="./resources/nav-logo.svg" alt="" class="logo default">
+            <img src="./resources/footer-logo.svg" alt="" class="logo white">
+        </div>
+        <div class="nav-menu">
+            <div class="nav-menu-left">
+                <a href="#" class="link nav-link"><p class="paragraph-2">Features</p></a>
+                <a href="#" class="link nav-link"><p class="paragraph-2">Pricing</p></a>
+                <a href="#" class="link nav-link"><p class="paragraph-2">University</p></a>
+                <a href="#" class="link nav-link"><p class="paragraph-2">Blog</p></a>
+                <a href="#" class="link nav-link"><p class="paragraph-2">Discover</p></a>
+            </div>
+            <div class="nav-menu-right">
+                <button class="nav-button">Login</button>
+                <button class="nav-button dark">Start Selling</button>
+            </div>
+        </div>
+        <div class="menu-button">
+            <div class="menu-icon">
+                <div class="menu-line top"></div>
+                <div class="menu-line bottom"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero -->
+    <div class="grid-halves parallax">
+        <div class="bg-pink border-right">
+            <div class="padding">
+                <h1 class="heading-1">Go from zero to $1</h1>
+                <p class="paragraph-1">With Gumroad, anyone can earn their first dollar online. Just start with what you know, see what sticks, and get paid. It’s that easy.</p>
+                <button class="btn-primary">Start Selling</button>
+            </div>
+        </div>
+        <div class="bg-yellow">
+            <div class="padding">
+                <div class="relative">
+                    <img src="./resources/hero-profile.png" alt="" class="grid-img">
+                    <img src="./resources/hero-sticker-1.svg" alt="" class="grid-sticker top-right">
+                    <img src="./resources/hero-sticker-2.svg" alt="" class="grid-sticker bottom-left">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- looping text -->
+    <div class="looping-text">
+        <div class="looping-text-content">
+            <p class="looping-text-heading">See what sticks</p>
+            <p class="looping-text-heading">•</p>
+            <p class="looping-text-heading">See what sticks</p>
+            <p class="looping-text-heading">•</p>
+            <p class="looping-text-heading">See what sticks</p>
+            <p class="looping-text-heading">•</p>
+            <p class="looping-text-heading">See what sticks</p>
+            <p class="looping-text-heading">•</p>
+            <p class="looping-text-heading">See what sticks</p>
+            <p class="looping-text-heading">•</p>
+            <p class="looping-text-heading">See what sticks</p>
+        </div>
+    </div>
+
+    <!-- gum head / loop -->
+    <section class="section">
+        <div class="text-container">
+            <h3 class="heading-3">You know all those great ideas you have?</h3>
+        </div>
+
+        <div class="loop-outer">
+            <div class="loop-inner">
+                <div class="loop-row">
+                    <div class="loop-row-item">
+                        <p class="paragraph-1">The Gumroad Way</p>
+                    </div>
+                    <div class="loop-row-item">
+                        <p class="paragraph-1">Start Small</p>
+                    </div>
+                </div>
+                <div class="loop-lottie-container">
+                    <lottie-player
+                        src="./resources/GUM HEAD.json"
+                        background="transparent"
+                        speed="1"
+                        loop
+                        autoplay
+                    ></lottie-player>
+                </div>
+                <div class="loop-row bottom">
+                    <div class="loop-row-item left">
+                        <p class="paragraph-1">Get Better Together</p>
+                    </div>
+                    <div class="loop-row-item left">
+                        <p class="paragraph-1">Learn Quickly</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- grid: comics -->
+    <div class="grid-halves">
+        <div class="bg-black">
+            <div class="padding">
+                <div class="relative">
+                    <img src="./resources/book.svg" alt="" class="grid-img">
+                    <div class="comic-bubble">
+                        <p class="paragraph-2">instead of selling a book..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-yellow">
+            <div class="padding">
+                <div class="relative">
+                    <img src="./resources/blog.svg" alt="" class="grid-img">
+                    <div class="comic-bubble">
+                        <p class="paragraph-2">start by selling a blog post!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- text section -->
+    <section class="section">
+        <div class="text-container">
+            <h1 class="heading-1">Make your own road</h1>
+            <p class="paragraph-1 text-centered">Whether you need more balance, flexibility, or just a different gig, we make it easier to chart a new path. You don't have to be a tech expert or even understand how to start a business. You just gotta take what you know and sell it.</p>
+            <div class="underline-link-wrapper">
+                <a href="#" class="link underline-link">Explore Features</a>
+                <img src="./resources/arrow-right.svg" alt="" class="underline-link-arrow">
+                <div class="underline-link-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- grid: sell anything -->
+    <div class="grid-halves">
+        <div class="bg-teal border-right">
+            <img src="./resources/feature-1.svg" alt="" class="grid-img">
+        </div>
+        <div class="bg-white">
+            <div class="padding">
+                <h2 class="heading-2">Sell anything</h2>
+                <p class="paragraph-1">Video lessons. Monthly subscriptions. Physical products. Whatever! Gumroad was created to help you experiment with all kinds of ideas and formats.</p>
+                <ul class="list">
+                    <li class="list-item">
+                        <p class="paragraph-2">Sell your Top 10 Lists</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="paragraph-2">Sell your Top 10 Lists</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="paragraph-2">Sell your Top 10 Lists</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="paragraph-2">Sell your Top 10 Lists</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="paragraph-2">Sell your Top 10 Lists</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="paragraph-2">Sell your Top 10 Lists</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- grid: creator 1 -->
+    <div class="grid-halves parallax">
+        <div class="bg-pink">
+            <div class="padding">
+                <h3 class="heading-3" style="margin-bottom: 4rem;">“I launched MaxPacks as an experimental side gig; but
+                    within 2 years those Procreate brushes were earning more
+                    than my 6-figure salary in CG. Leaving in favor of
+                    Gumroad enabled me to explore other aspects of my art,
+                    develop new hobbies, and finally prioritize my personal
+                    life.”</h3>
+                <p class="paragraph-2">Max Ulichney sells Procreate Brush Packs</p>
+            </div>
+        </div>
+        <div class="bg-pink">
+            <div class="padding">
+                <div class="relative">
+                    <img src="./resources/creator-profile.png" alt="" class="grid-img">
+                    <img src="./resources/creator-sticker.svg" alt="" class="grid-sticker bottom-left">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- grid: sell to anyone -->
+    <div class="grid-halves">
+        <div class="bg-black border-right">
+            <div class="padding">
+                <img src="./resources/social.svg" alt="" class="grid-img">
+            </div>
+        </div>
+        <div class="bg-white">
+            <div class="padding">
+                <h2 class="heading-2">Sell to anyone</h2>
+                <p class="paragraph-1">Build a loyal following with simple posts, email newsletters, and automated workflows. Plus let your customers pay what they want or choose between one-time, recurring, or fixed-length payments in your currency of choice. (We'll handle the fine print, like VAT).</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- grid: creator 2 -->
+    <div class="grid-halves parallax">
+        <div class="bg-teal">
+            <div class="padding">
+                <h3 class="heading-3" style="margin-bottom: 4rem;">“I launched MaxPacks as an experimental side gig; but
+                    within 2 years those Procreate brushes were earning more
+                    than my 6-figure salary in CG. Leaving in favor of
+                    Gumroad enabled me to explore other aspects of my art,
+                    develop new hobbies, and finally prioritize my personal
+                    life.”</h3>
+                <p class="paragraph-2">Max Ulichney sells Procreate Brush Packs</p>
+            </div>
+        </div>
+        <div class="bg-teal">
+            <div class="padding">
+                <div class="relative">
+                    <img src="./resources/creator2-profile.png" alt="" class="grid-img">
+                    <img src="./resources/creator2-sticker-1.svg" alt="" class="grid-sticker top-right">
+                    <img src="./resources/creator2-sticker-2.svg" alt="" class="grid-sticker bottom-left">
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- looping text -->
+     <div class="looping-text">
+        <div class="looping-text-content">
+            <p class="looping-text-heading">See what sticks</p>
+            <p class="looping-text-heading">•</p>
+            <p class="looping-text-heading">See what sticks</p>
+            <p class="looping-text-heading">•</p>
+            <p class="looping-text-heading">See what sticks</p>
+            <p class="looping-text-heading">•</p>
+            <p class="looping-text-heading">See what sticks</p>
+            <p class="looping-text-heading">•</p>
+            <p class="looping-text-heading">See what sticks</p>
+            <p class="looping-text-heading">•</p>
+            <p class="looping-text-heading">See what sticks</p>
+        </div>
+    </div>
+
+    <!-- grid: sell anywhere -->
+    <div class="grid-halves">
+        <div class="bg-yellow border-right">
+            <div class="padding">
+                <img src="./resources/feature-4.svg" alt="" class="grid-img">
+            </div>
+        </div>
+        <div class="bg-white">
+            <div class="padding">
+                <h2 class="heading-2">Sell anywhere</h2>
+                <p class="paragraph-1">Create and customize your storefront with our all-in-one
+                    platform or choose to use your personal site instead.
+                    With Zapier, you can seamlessly connect your Gumroad
+                    account to thousands of apps in your current stack.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- grid: creator 3 -->
+    <div class="grid-halves parallax">
+        <div class="bg-pink">
+            <div class="padding">
+                <h3 class="heading-3" style="margin-bottom: 4rem;">“I launched MaxPacks as an experimental side gig; but
+                    within 2 years those Procreate brushes were earning more
+                    than my 6-figure salary in CG. Leaving in favor of
+                    Gumroad enabled me to explore other aspects of my art,
+                    develop new hobbies, and finally prioritize my personal
+                    life.”</h3>
+                <p class="paragraph-2">Steph Smith sells content tutorials</p>
+            </div>
+        </div>
+        <div class="bg-pink">
+            <div class="padding">
+                <div class="relative">
+                    <img src="./resources/creator3-profile.png" alt="" class="grid-img">
+                    <img src="./resources/creator3-sticker-1.svg" alt="" class="grid-sticker top-left">
+                    <img src="./resources/creator3-sticker-2.svg" alt="" class="grid-sticker bottom-right">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- income section -->
+    <section class="section parallax" style="padding-bottom: 0;">
+        <div class="text-container">
+            <h1 class="income-heading">$3,408,148</h1>
+            <p class="paragraph-1">The amount of income earned by Gumroad digital entrepreneurs last week.</p>
+        </div>
+        <img src="./resources/income-1.svg" alt="" class="income-coin" style="width: 8em; top: 2rem; left: -5rem;">
+        <img src="./resources/income-2.svg" alt="" class="income-coin" style="width: 10em; top: -10rem; left: 15rem;">
+        <img src="./resources/income-3.svg" alt="" class="income-coin" style="width: 7em; top: 6rem; right: 5rem;">
+        <img src="./resources/income-4.svg" alt="" class="income-coin" style="width: 9em; top: 20rem; right: -5rem;">
+        <img src="./resources/income-5.svg" alt="" class="income-coin" style="width: 11em; top: 22rem; left: 7rem;">
+        <img src="./resources/income-bg.svg" style="width: 100%;" alt="">
+    </section>
+
+    <!-- grid: pricing -->
+    <div class="grid-halves parallax">
+        <div class="bg-neon border-right">
+            <div class="padding">
+                <h2 class="heading-2">Start free, pay less as you grow.</h2>
+                <p class="paragraph-1">We’re all about more. More breaks, more calm, more money in your pocket. We used to think differently, like ‘what’s in it for us?,’ but then we discovered, some things are more important than money.</p>
+                <div class="underline-link-wrapper">
+                    <a href="#" class="link underline-link">View Pricing</a>
+                    <img src="./resources/arrow-right.svg" alt="" class="underline-link-arrow">
+                    <div class="underline-link-line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-yellow">
+            <div class="padding">
+                <div class="relative">
+                    <img src="./resources/pricing.svg" alt="" class="grid-img">
+                    <img src="./resources/pricing-sticker.svg" alt="" class="grid-sticker bottom-left">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- text section -->
+    <section class="section">
+        <div class="text-container">
+            <p class="paragraph-2">Gumroad University</p>
+            <h1 class="heading-1 text-centered">Independent doesn’t mean alone</h1>
+            <p class="paragraph-1 text-centered">Explore our community resources and level up, together. Get access to courses, challenges, podcasts, and learn firsthand how others built their online businesses.</p>
+            <div class="underline-link-wrapper">
+                <a href="#" class="link underline-link">Explore Unviersity</a>
+                <img src="./resources/arrow-right.svg" alt="" class="underline-link-arrow">
+                <div class="underline-link-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- grid: book -->
+    <div class="grid-halves">
+        <div class="bg-black border-right">
+            <div class="padding">
+                <img src="./resources/entrepreneur-book.svg" alt="" class="grid-img">
+            </div>
+        </div>
+        <div class="bg-black" style="color: var(--white);">
+            <div class="padding">
+                <div class="bio">
+                    <img src="./resources/sahil.svg" alt="" class="bio-img">
+                    <div class="bio-text">
+                        <p class="paragraph-2">Sahil Lavingia</p>
+                        <p class="paragraph-2" style="font-size: 0.9em;">Gumroad founder, Irregular painter, VC-hating VC, Aspiring Sci-Fi author</p>
+                    </div>
+                </div>
+                <h2 class="heading-2">Sell anywhere</h2>
+                <p class="paragraph-1">There’s no perfect business, just lots of attempts. Learn from Gumroad’s founder Sahil Lavingia, in his new book, ”The Minimalist Entrepreneur” — a manifesto for founders who would rather build great businesses than big companies. More on our story here.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- text section -->
+    <section class="section bg-pink">
+        <div class="text-container">
+            <h1 class="heading-1 text-centered" style="margin-bottom: 2rem;">Share your work. Someone out there needs it.</h1>
+            <button class="btn-primary">Start Selling</button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="section bg-black" style="color: var(--white);">
+        <div class="footer">
+            <img src="./resources/footer-logo.svg" alt="" class="footer-logo">
+            <h2 class="heading-2">Subscribe to get tips and tactics to grow the way you want.</h2>
+            <div class="copyright">
+                <img src="./resources/gumroad-icon.svg" alt="" class="footer-icon">
+                <p class="paragraph-2">Ⓒ 2022 Gumroad, Inc.</p>
+            </div>
+
+            <div class="footer-links-wrapper">
+                <div class="footer-links">
+                    <a href="#" class="link paragraph-2">Help</a>
+                    <a href="#" class="link paragraph-2">University</a>
+                    <a href="#" class="link paragraph-2">Blog</a>
+                    <a href="#" class="link paragraph-2">Terms of Service</a>
+                    <a href="#" class="link paragraph-2">Privacy Policy</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#" class="link paragraph-2">Help</a>
+                    <a href="#" class="link paragraph-2">University</a>
+                    <a href="#" class="link paragraph-2">Blog</a>
+                    <a href="#" class="link paragraph-2">Terms of Service</a>
+                    <a href="#" class="link paragraph-2">Privacy Policy</a>
+                </div>
+            </div>
+
+            <div class="footer-social">
+                <img src="./resources/flogo-facebook.png" alt="" class="footer-social-icon" style="width: auto; height: 1.5em;">
+                <img src="./resources/flogo-instagram.png" alt="" class="footer-social-icon">
+                <img src="./resources/flogo-pinterest.png" alt="" class="footer-social-icon">
+                <img src="./resources/flogo-youtube.png" alt="" class="footer-social-icon">
+                <img src="./resources/flogo-twitter.png" alt="" class="footer-social-icon">
+            </div>
+        </div>
+    </section>
+    <script src="home.js"></script>
+</body>
+</html>
